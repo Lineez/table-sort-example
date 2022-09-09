@@ -1,0 +1,16 @@
+{
+    "allowJs": true,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"],
+            // для vetur чтобы делать импорты компонентов + автокомплит
+            "components/*": [
+                "src/components/*"
+            ]
+        },
+        "jsx": "preserve"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
